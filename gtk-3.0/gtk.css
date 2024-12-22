@@ -1,0 +1,15 @@
+scrollbar {
+    background: transparent;
+}
+
+scrollbar:hover {
+    background-color: transparent;
+}
+
+scrollbar slider {
+    background-color: rgba(100, 100, 100, 0.4);
+}
+
+scrollbar slider:hover {
+    background-color: rgba(100, 100, 100, 0.8);
+}
