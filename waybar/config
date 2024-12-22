@@ -11,7 +11,7 @@
 
     "modules-left": ["hyprland/workspaces", "hyprland/window"],
     "modules-center": ["custom/network_traffic"],
-    "modules-right": ["custom/updates", "backlight", "custom/keyboard-layout", "cpu", "memory", "battery", "pulseaudio", "network", "tray", "idle_inhibitor", "clock","custom/power"],
+    "modules-right": ["custom/updates", "backlight", "cpu", "memory", "battery", "pulseaudio", "network", "tray", "idle_inhibitor", "clock","custom/power"],
 
  // Modules configuration
 
@@ -124,10 +124,6 @@
        	"on-click": "nwgbar",
       	"tooltip": false,
    },
-   "custom/keyboard-layout": {
-      	"format": " Cheat", // Icon: keyboard
-        "on-click": "~/.config/waybar/scripts/keyhint.sh",
-     },
      "custom/network_traffic": {
              "exec": "~/.config/waybar/scripts/network_traffic.sh",
              "return-type": "json",
