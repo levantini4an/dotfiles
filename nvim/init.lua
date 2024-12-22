@@ -35,7 +35,8 @@ local options = {
   guicursor = "n-v-c-i:block",
   relativenumber = true,
   updatetime = 300,
-  completeopt = "menu,menuone,noselect"
+  completeopt = "menu,menuone,noselect",
+  autochdir = true
 }
 
 for k, v in pairs(options) do
