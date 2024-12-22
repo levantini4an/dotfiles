@@ -128,11 +128,6 @@
       	"format": " Cheat", // Icon: keyboard
         "on-click": "~/.config/waybar/scripts/keyhint.sh",
      },
-    "custom/launcher": {
-    "format":"    ",
-    	"on-click": "exec nwg-drawer -c 7 -is 70 -spacing 23",
-    	"tooltip": false,
-     },
      "custom/network_traffic": {
              "exec": "~/.config/waybar/scripts/network_traffic.sh",
              "return-type": "json",
